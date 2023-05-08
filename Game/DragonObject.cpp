@@ -87,7 +87,7 @@ void DragonObject::Move()
     if(isDeath)
     {
         x_pos_ = map_x_ + SCREEN_WIDTH + 10;
-        y_pos_ = -100;
+        y_pos_ = SCREEN_HEIGHT/2;
     }
 }
 
@@ -131,7 +131,7 @@ void DragonObject::MoveDying()
         isDeath = true;
         isDying = false;
         x_pos_ = map_x_ + SCREEN_WIDTH + 10;
-        y_pos_ = -100;
+        y_pos_ = SCREEN_HEIGHT/2;
     }
 }
 

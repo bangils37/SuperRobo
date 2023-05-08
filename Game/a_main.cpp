@@ -144,6 +144,8 @@ int ShowMenu()
             }
         }
         SDL_RenderPresent(g_screen);
+
+        for(int i=0; i<nMenu; i++) text_menu[i].Free();
     }
 }
 
@@ -240,6 +242,8 @@ void GameEndMenu(bool &is_quit, bool win)
             }
         }
         SDL_RenderPresent(g_screen);
+
+        for(int i=0; i<nMenu; i++) text_menu[i].Free();
     }
 }
 
@@ -271,19 +275,16 @@ int main(int argc, char* argv[])
     if(LoadBackground() == false)       // Load Background vào
         return -1;
 
-    BaseObject gameover_;
-    gameover_.LoadImg("img/gameover_main.jpg", g_screen);
-
     GameMap game_map;
     game_map.LoadMap("map/main_map.dat");       // Load map (raw) vào
     game_map.LoadTiles(g_screen);               // Load map (image) ra mh
 
+    /// Warrior
     MainObject p_player;
     p_player.LoadImg("img/player_right_main.png", g_screen);     // Load ảnh nhân vật vào
     p_player.set_clip();                                    // Load các frame nhân vật vào
 
-    int hp_ = 3;
-
+    /// FireBalls
     FireBall ball[10];
     for(int i=0;i<10;i++)
     {
@@ -292,19 +293,21 @@ int main(int argc, char* argv[])
         ball[i].SetPos(SCREEN_WIDTH + 10, i*TILE_SIZE);
     }
 
+    /// Dragons
     DragonObject dragon[5];
     for(int i=0;i<5;i++)
     {
         dragon[i].LoadImg("img/dragon_left_main.png", g_screen);
         dragon[i].set_clip();
-        dragon[i].SetPos(SCREEN_WIDTH + 10, -100);
+        dragon[i].SetPos(SCREEN_WIDTH + 10, SCREEN_HEIGHT/2);
     }
 
-    ///Time text
+    /// Time text
     TextObject time_game;
     time_game.SetColor(TextObject::WHITE_TEXT);
 
-    ///HP text
+    /// HP text
+    int hp_ = 3;
     TextObject HP_Players;
     HP_Players.SetColor(TextObject::WHITE_TEXT);
 
@@ -493,8 +496,9 @@ int main(int argc, char* argv[])
                 SDL_Delay(delay_time);
         }
         /// End
+        time_game.Free();
+        HP_Players.Free();
         p_player.Free();
-        gameover_.Free();
         for(int i=0;i<10;i++) ball[i].Free();
         for(int i=0;i<5;i++) dragon[i].Free();
     }
