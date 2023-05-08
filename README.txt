@@ -1,0 +1,13 @@
+- Press A or D to move left or right
+- Press SPACE to jump
+- Jump on the top to kill Dragon
+- Warrior has 3 HP
+- Warrior'll loss 1 HP when he being touched by FireBall or Dragons.
+- Find and get the treasure to win
+
+- Nhấn A hoặc D để di chuyển sang trái hoặc phải
+- Nhấp phím SPACE để nhảy
+- Nhảy lên đầu Rồng để giết Rồng
+- Chiến binh có 3 HP
+- Chiến binh bị mất 1 HP mỗi khi anh ấy bị chạm vào bởi Cầu lửa hoặc Rồng
+- Tìm và lấy rương kho máu để chiến thắng

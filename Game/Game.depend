@@ -1,0 +1,177 @@
+# depslib dependency file v1.0
+1681182298 source:e:\codeblocks\game\main.cpp
+	<SDL.h>
+
+1681183178 source:e:\codeblocks\game\commonfunc.cpp
+	"CommonFunc.h"
+
+1681183196 e:\codeblocks\game\commonfunc.h
+	<windows.h>
+	<string>
+	<SDL.h>
+
+1683467937 source:d:\c++\game\commonfunc.cpp
+	"CommonFunc.h"
+
+1683514088 d:\c++\game\commonfunc.h
+	<bits/stdc++.h>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<windows.h>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1683470621 source:d:\c++\game\baseobject.cpp
+	"BaseObject.h"
+
+1682404638 d:\c++\game\baseobject.h
+	"CommonFunc.h"
+
+1682686530 source:d:\c++\game\main.cpp
+	"CommonFunc.h"
+	"BaseObject.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTimer.h"
+	"FireBall.h"
+	"DragonObject.h"
+
+1683487595 source:d:\c++\game\game_map.cpp
+	"game_map.h"
+
+1682136449 d:\c++\game\game_map.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1683514508 source:d:\c++\game\mainobject.cpp
+	"MainObject.h"
+
+1683515787 d:\c++\game\mainobject.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1682151975 source:d:\c++\game\imptimer.cpp
+	"ImpTimer.h"
+	"CommonFunc.h"
+
+1682151824 d:\c++\game\imptimer.h
+
+1683481167 source:d:\c++\game\fireball.cpp
+	"FireBall.h"
+
+1683495026 d:\c++\game\fireball.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1683481321 source:d:\c++\game\dragonobject.cpp
+	"DragonObject.h"
+
+1683489006 d:\c++\game\dragonobject.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1683514759 source:d:\c++\game\a_main.cpp
+	"CommonFunc.h"
+	"BaseObject.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTimer.h"
+	"FireBall.h"
+	"DragonObject.h"
+	"TextObject.h"
+
+1683471665 d:\c++\game\textobject.h
+	"CommonFunc.h"
+
+1683472377 source:d:\c++\game\textobject.cpp
+	"TextObject.h"
+
+1683512176 source:d:\c++\game\hpobject.cpp
+	"HPObject.h"
+
+1683512171 d:\c++\game\hpobject.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1683516760 source:d:\superrobo\game\a_main.cpp
+	"CommonFunc.h"
+	"BaseObject.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTimer.h"
+	"FireBall.h"
+	"DragonObject.h"
+	"TextObject.h"
+
+1683514088 d:\superrobo\game\commonfunc.h
+	<bits/stdc++.h>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<windows.h>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1682404638 d:\superrobo\game\baseobject.h
+	"CommonFunc.h"
+
+1682136449 d:\superrobo\game\game_map.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1683515787 d:\superrobo\game\mainobject.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1682151824 d:\superrobo\game\imptimer.h
+
+1683495026 d:\superrobo\game\fireball.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1683489006 d:\superrobo\game\dragonobject.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1683471665 d:\superrobo\game\textobject.h
+	"CommonFunc.h"
+
+1683470621 source:d:\superrobo\game\baseobject.cpp
+	"BaseObject.h"
+
+1683467937 source:d:\superrobo\game\commonfunc.cpp
+	"CommonFunc.h"
+
+1683481321 source:d:\superrobo\game\dragonobject.cpp
+	"DragonObject.h"
+
+1683481167 source:d:\superrobo\game\fireball.cpp
+	"FireBall.h"
+
+1683487595 source:d:\superrobo\game\game_map.cpp
+	"game_map.h"
+
+1683512176 source:d:\superrobo\game\hpobject.cpp
+	"HPObject.h"
+
+1683512171 d:\superrobo\game\hpobject.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1682151975 source:d:\superrobo\game\imptimer.cpp
+	"ImpTimer.h"
+	"CommonFunc.h"
+
+1683514508 source:d:\superrobo\game\mainobject.cpp
+	"MainObject.h"
+
+1683472377 source:d:\superrobo\game\textobject.cpp
+	"TextObject.h"
+
